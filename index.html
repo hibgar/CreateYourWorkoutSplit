@@ -1,31 +1,48 @@
-<h1 class = "center">
-    Create Your Workout Split
-</h1>
+<!DOCTYPE html>
+<html>
 
-<table class="GeneratedTable centeredtable">
-  <thead>
-    <tr>
-      <th class="column">Sunday</th>
-      <th class="column">Monday</th>
-      <th class="column">Tuesday</th>
-      <th class="column">Wednesday</th>
-      <th class="column">Thursday</th>
-      <th class="column">Friday</th>
-      <th class="column">Saturday</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr ondrop="drop(event)" ondragover="allowDrop(event)">
-      <td colspan="1" bgcolor="#FFFFFF" height="200">&nbsp;</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-  
+<head>
 
-<span class ="draggables"  draggable="true" ondragstart="drag(event)">Rest Day</span>
+  <link rel='stylesheet' href='styles.css'>
+
+  <script src="scripts.js"></script>
+
+  <h1 class = "center">
+      Create Your Workout Split
+  </h1>
+</head>
+
+<body>
+  <table class="GeneratedTable centeredtable">
+    <thead>
+      <tr>
+        <th class="column">Sunday</th>
+        <th class="column">Monday</th>
+        <th class="column">Tuesday</th>
+        <th class="column">Wednesday</th>
+        <th class="column">Thursday</th>
+        <th class="column">Friday</th>
+        <th class="column">Saturday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ondrop="drop(event)" ondragover="allowDrop(event)">
+        <td colspan="1" bgcolor="#FFFFFF" height="200">&nbsp;</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+    
+
+
+  <!-- <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+
+<img id="drag1" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+</body>
+
+</html>
